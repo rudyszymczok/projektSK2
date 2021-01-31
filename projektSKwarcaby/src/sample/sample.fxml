@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <VBox alignment="CENTER" layoutY="121.0" prefHeight="119.0" prefWidth="600.0" spacing="20.0">
+            <children>
+                <Button alignment="TOP_CENTER" mnemonicParsing="false" onAction="#nowaGraPushed" prefHeight="48.0" prefWidth="248.0" text="NOWA GRA">
+                    <font>
+                        <Font name="Ink Free" size="32.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#wyjsciePushed" prefHeight="50.0" prefWidth="248.0" text="WYJSCIE">
+                    <font>
+                        <Font name="Ink Free" size="32.0" />
+                    </font></Button>
+            </children>
+        </VBox>
+        <Label alignment="CENTER" prefHeight="103.0" prefWidth="600.0" text="WARCABY" textAlignment="CENTER">
+            <font>
+                <Font name="Ink Free" size="45.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

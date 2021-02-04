@@ -3,7 +3,7 @@ package sample;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
-public class Pole extends Rectangle {
+public class Pole extends Rectangle {  //graficzna reprezentacja pola
 
     private Pionek pionek;
 
@@ -24,7 +24,7 @@ public class Pole extends Rectangle {
 
         relocate(x * Main.rozmiar_pola, y * Main.rozmiar_pola);
         if(kolor_pola == true){
-            setFill(Color.valueOf("#F0D9B5"));
+            setFill(Color.valueOf("#F0D9B5"));  //nadanie kolorow pol
         }
         else{
             setFill(Color.valueOf("#B58863"));

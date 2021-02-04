@@ -12,10 +12,11 @@ public class Main extends Application {
     public static final int rozmiar_planszy = 8;
     public static final int rozmiar_okna = rozmiar_planszy * rozmiar_pola;
 
+    //zainicjowanie interfejsu uzytkownika
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Warcaby");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }

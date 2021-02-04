@@ -1,6 +1,6 @@
 package sample;
 
-public class WynikRuchu {
+public class WynikRuchu {  //typ ruchu wraz ze zbijanym pionkem
     private TypRuchu typ_ruchu;
 
     public TypRuchu getTyp(){

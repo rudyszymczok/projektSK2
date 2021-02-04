@@ -24,7 +24,7 @@ public class Pionek extends StackPane {
         return oldY;
     }
 
-    public Pionek(TypPionka typ, int x, int y){
+    public Pionek(TypPionka typ, int x, int y){  //utworzenie grafifcznej postaci pionka oraz rozmieszczenie go na planszy
 
         this.typ = typ;
 

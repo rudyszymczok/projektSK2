@@ -12,6 +12,10 @@
                     <font>
                         <Font name="Ink Free" size="32.0" />
                     </font></Button>
+                <Button alignment="TOP_CENTER" mnemonicParsing="false" onAction="#opcjePushed" prefHeight="50.0" prefWidth="248.0" text="OPCJE">
+                    <font>
+                        <Font name="Ink Free" size="32.0" />
+                    </font></Button>
                 <Button mnemonicParsing="false" onAction="#wyjsciePushed" prefHeight="50.0" prefWidth="248.0" text="WYJSCIE">
                     <font>
                         <Font name="Ink Free" size="32.0" />
